@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/layoutShape"
+
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#86B8CA"></RelativeLayout>
+
+
+        <ImageButton
+            android:id="@+id/user_profile_photo"
+            android:layout_width="140dp"
+            android:layout_height="144dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:elevation="4dp"
+            android:src="@drawable/facialclinica" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="270dp"
+            android:background="@drawable/gradient_background_elias"
+            android:orientation="vertical">
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/txtLogin"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/login_user"
+                    android:drawableTint="#0772A7"
+                    android:hint="Digite Usuario"
+                    android:inputType="textEmailAddress"
+                    android:singleLine="true" />
+                <!--android:theme="@style/MyEditTextLogin"-->
+            </android.support.design.widget.TextInputLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <EditText
+                            android:id="@+id/txtSenha"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:drawableLeft="@drawable/login_key"
+                            android:drawableTint="#0772A7"
+                            android:hint="Digite Senha"
+                            android:password="true"
+                            android:singleLine="true" />
+                        <!-- android:theme="@style/MyEditTextLogin" -->
+                        <!--android:inputType="numberPassword" -->]
+
+
+                    </LinearLayout>
+                </android.support.design.widget.TextInputLayout>
+
+
+            </RelativeLayout>
+
+
+            <Button
+                android:id="@+id/btLogar"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="22dp"
+                android:layout_marginTop="523dp"
+                android:background="#0772A7"
+                android:text="@string/botaoLogin"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

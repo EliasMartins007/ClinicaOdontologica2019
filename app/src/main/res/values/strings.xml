@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Clínica</string>
+
+    <string name="direitos">TODOS OS DIREITOS RESERVADOS</string>
+    <string name="copyright">COPYRIGHT© 2019</string>
+
+
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+
+    <string name="botaoLogin">ENTRAR</string>
+
+</resources>
